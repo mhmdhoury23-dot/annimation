@@ -1,0 +1,32 @@
+
+#box1 {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name: move;
+    animation-duration: 5s;
+}
+@keyframes move {
+    0%, 100% {
+        background-color: red;
+        top: 0;
+        left: 0;
+    
+    }
+    25% {
+        background-color: aquamarine;
+        top: 0;
+        left: 200px;
+    }
+    50% {
+        background-color: black;
+        left: 200px;
+        top: 200px;
+    }
+    75% {
+        background-color: brown;
+        top: 200px;
+        left: 0;
+    }
+}
